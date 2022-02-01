@@ -2,7 +2,10 @@
 @media (max-width: 575.98px) {
     /* header  */
     header{
-        height: 470px;
+        height: 430px;
+    }
+    .navbar-brand img{
+        width: 60%;
     }
     .main-menu ul {
         background-color: #fff;
@@ -17,6 +20,9 @@
         display: inline-block;
     }
     /* hero area  */
+    .hero-content {
+        padding-top: 130px;
+    }
     .hero-content h2 {
         font-size: 24px;
     }
@@ -30,6 +36,9 @@
     /* booking  */
     .booking-content {
         padding-right: 0;
+    }
+    .booking-wrapper {
+        /* padding-top: 110px; */
     }
     .booking-section {
         padding-top: 50px;
@@ -137,18 +146,121 @@
         padding-right: 0;
         font-size: 16px;
     }
-    .footer-1, .footer-2 {
-        margin-bottom: 40px;
-    }
 }
 
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header{
+        height: 580px;
+    }
+    .main-menu ul {
+        background-color: #fff;
+    }
+    .main-menu ul li{
+        margin: 7px 0;
+        text-align: center;
+    }
+    .main-menu ul li a{
+        padding: 7px 30px !important;
+        color: black !important;
+        display: inline-block;
+    }
+    .hero-content h1 {
+        font-size: 62px;;
+    }
+    .booking-wrapper {
+        padding-top: 10px;
+    }
+    .booking-content {
+        padding-right: 0;
+    }
+    .booking-section h1 {
+        font-size: 42px;
+    }
+    .booking-section h2 {
+        font-size: 30px;
+    }
+    .booking-section p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .booking-form {
+        margin-top: 30px;
+    }
+    .tariffs-section {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    .single-tariff {
+        margin-bottom: 100px !important;
+    }
+    .features-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .single-feature {
+        padding-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .feature-icon {
+        margin-bottom: 20px;
+    }
+    .contact-details h1 {
+        font-size: 65px;
+    }
+    .contact-details h3 {
+        font-size: 30px;
+    }
+    .footer-wrapper {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    header{
+        height: 660px;
+    }
+    .main-menu ul {
+        background-color: #fff;
+    }
+    .main-menu ul li{
+        margin: 7px 0;
+        text-align: center;
+    }
+    .main-menu ul li a{
+        padding: 7px 30px !important;
+        color: black !important;
+        display: inline-block;
+    }
+    .booking-content {
+        padding-right: 0;
+    }
+    .booking-form {
+        margin-top: 50px;
+    }
+    .single-tariff {
+        margin-bottom: 100px !IMPORTANT;
+    }
+    .tariffs-section {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    .features-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .single-feature {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .footer-wrapper {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
 }
 
  /* Large devices (desktops, 992px and up) */
