@@ -327,7 +327,8 @@ footer{
     background-position: center;
 }
 .footer-wrapper{
-    
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .footer-heading{
     font-size: 25px;
@@ -359,5 +360,19 @@ footer{
 .footer-2-link a i{
     color: #fff;
     font-size: 20px;
+}
+.footer-3{}
+.footer-3 .contact-wrapper{}
+.footer-3 .contact-wrapper{}
+.footer-3 .contact-wrapper .single-contact-item{
+    position: relative;
+    font-size: 18px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.footer-3 .contact-wrapper .single-contact-item i{
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 /* footer end  */
