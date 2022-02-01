@@ -1,8 +1,144 @@
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* header  */
+    header{
+        height: 470px;
+    }
+    .main-menu ul {
+        background-color: #fff;
+    }
+    .main-menu ul li{
+        margin: 7px 0;
+        text-align: center;
+    }
+    .main-menu ul li a{
+        padding: 7px 30px !important;
+        color: black !important;
+        display: inline-block;
+    }
+    /* hero area  */
+    .hero-content h2 {
+        font-size: 24px;
+    }
+    .hero-content h1 {
+        font-size: 35px;
+    }
     .hero-content p{
-        font-size: 13px;
-        letter-spacing: 8px;
+        font-size: 9px;
+        letter-spacing: 9px;
+    }
+    /* booking  */
+    .booking-content {
+        padding-right: 0;
+    }
+    .booking-section {
+        padding-top: 50px;
+    }
+    .booking-section h2 {
+        font-size: 22px;
+    }
+    .booking-section h1 {
+        font-size: 32px;
+    }
+    .booking-section p {
+        margin-top: 20px;
+        margin-bottom: 35px;
+        font-size: 16px;
+    }
+    .booking-form {
+        margin-top: 35px;
+    }
+    /* tariff  */
+    .tariffs-section {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .section-title-upper {
+        font-size: 25px;
+    }
+    .section-title-bottom {
+        font-size: 34px;
+    }
+    .single-tariff {
+        margin-bottom: 100px !important;
+    }
+    /* feature  */
+    .feature-wrapper {
+        margin-top: 60px;
+    }
+    .single-feature {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    .single-feature .feature-icon .f-icon-box {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .single-feature .feature-content {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .single-feature .feature-content h5 {
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+    .single-feature .feature-content p {
+        font-size: 16px;
+    }
+    /* download  */
+    .download-content h3 {
+        font-size: 26px;
+    }
+    .download-content p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .download-link-thumb {
+        text-align: center;
+    }
+    /* testimonial  */
+    .single-wrapper {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .single-wrapper p {
+        font-size: 16px;
+    }
+    /* contact  */
+    .contact-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contact-details h3 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .contact-details h1 {
+        font-size: 42px;
+    }
+    /* footer  */
+    .footer-wrapper {
+        padding-top: 60px;
+        padding-bottom: 45px;
+    }
+    .footer-heading {
+        font-size: 23px;
+        padding-bottom: 25px;
+        padding-top: 10px;
+        margin-bottom: 35px;
+    }
+    .footer-p {
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .footer-1, .footer-2 {
+        margin-bottom: 40px;
     }
 }
 
