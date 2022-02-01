@@ -1,0 +1,252 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Bebas Neue', cursive; */
+
+
+/* common CSS */
+body{
+    font-family: 'Lato', sans-serif;
+    /* color: #FFF !important; */
+}
+.theme-color{
+    color: #ffc61a;
+}
+.theme-bg{
+    background-color: #ffc61a !important;
+}
+.btn-custom{
+    padding: 7px 35px 7px 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #fff;
+    background-color: #131313;
+    border-radius: 7px;
+}
+.section-title-upper{
+    font-size: 35px;
+    font-weight: 900;
+}
+.section-title-bottom{
+    font-size: 44px;
+    font-weight: 900;
+}
+/* header start  */
+header{
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 739px;    
+}
+.my-nav{
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.main-menu{}
+.main-menu ul{}
+.main-menu ul li {
+    margin: 0 10px;
+}
+.main-menu ul li a{
+    padding: 3px 15px 3px 15px !important;
+    color: #FFF !important;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.main-menu ul li a:hover{
+    background-color: #ffc61a;
+}
+
+/* hero-section start  */
+.hero-content{
+    padding-top: 155px;
+}
+.hero-content h2{ 
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.hero-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: #FFF;
+}
+.hero-content p{
+    font-size: 14px;
+    font-weight: 900;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.hero-image{
+    margin-top: 30px;
+}
+/* hero-section end  */
+/* header end  */
+/* booking section start  */
+.booking-section{
+    padding-bottom: 80px;
+    padding-top: 140px;
+    background: #ffc61a;
+    padding-top: 114px;
+}
+.booking-wrapper{
+    padding-top: 50px;
+}
+.booking-content{
+    margin-top: px;
+    padding-right: 30px;
+}
+.booking-section h2{
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.booking-section h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #101010;
+    text-transform: uppercase;
+}
+.booking-section p{
+    margin-top: 30px;
+    margin-bottom: 55px;
+    font-size: 18px;
+    color: #101010;
+}
+.booking-form{
+    background-color: #fff;
+}
+.booking-form h3{
+    padding: 20px 35px;
+    background-color: #171717;
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.booking-form form{
+    padding: 20px 35px;
+}
+.booking-form form input, .booking-form form select{
+    padding: 15px 0 7px 0px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #e4e4e4;
+}
+.booking-form form input::placeholder{
+    
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+}
+.booking-form form input:focus,
+.booking-form form select:focus{
+    box-shadow:none
+}
+.booking-form form select {
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+}
+.btn-form{
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #fff;
+    background-color: #131313;
+    border-radius: 7px;
+}
+/* booking section end  */
+/* tariff section start  */
+.tariffs-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.tariff-wrapper{
+    margin-top: 125px;
+}
+.single-tariff{
+    padding: 0 11px 25px 11px;
+    background-color: #f5f4f2;
+}
+.single-tariff .tariff-thumb img{
+    margin-top: -68px;
+    margin-bottom: 30px;
+}
+.single-tariff h4{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.single-tariff p{
+    margin-top: 25px;
+    font-size: 18px;
+    color: #101010;
+}
+.single-tariff h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.star {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    padding: 37px 10px 10px 40px;
+    background-color: #1b1b1b;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.star i{
+    font-size: 30px;
+}
+/* tariff section end  */
+/* features-section start  */
+.features-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../img/thankyouwish.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feature-wrapper{
+    margin-top: 90px;
+}
+.single-feature{
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.single-feature .feature-icon .f-icon-box{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: #ffc61a;
+    text-align: center;
+}
+.single-feature .feature-icon i{
+    font-size: 30px;
+    color: #070404;
+}
+.single-feature .feature-content{
+    margin-left: 30px;
+}
+.single-feature .feature-content h5{
+    margin-bottom: 18px;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.single-feature .feature-content p{
+    font-size: 18px;
+    color: #fff;
+}
+.single-feature{}
+/* features-section end  */
