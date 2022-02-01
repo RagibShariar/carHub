@@ -250,3 +250,114 @@ header{
 }
 .single-feature{}
 /* features-section end  */
+/* app download section start  */
+.app-download-section{
+    padding-top: 70px;
+}
+.download-content{}
+.download-content h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+.download-content p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-right: 80px;
+    font-size: 18px;
+    color: #101010;
+}
+/* app download section end  */
+/* testimonial start  */
+.testimonial-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../img/testimonial.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial-wrapper{
+    margin-top: 100px;
+}
+.single-wrapper{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    background-color: #040707;
+}
+.single-wrapper p{
+    font-size: 18px;
+    color: #fff;
+}
+.client-info h4{
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.client-info p{
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* testimonial end  */
+/* contact-section start  */
+.contact-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact-details h3{
+    font-size: 35px;
+    font-weight: 900;
+    color: #000;
+}
+.contact-details h1{
+    font-size: 77px;
+    font-weight: 900;
+    color: #000;
+}
+/* contact-section end  */
+/* footer start  */
+footer{
+    background-image: url('../img/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-wrapper{
+    
+}
+.footer-heading{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 8px solid #ffc61a;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+.footer-p{
+    margin-bottom: 25px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer-1-social ul li a {
+    color: #ffc61a;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer-2-link p{
+    color: #ffc61a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-2-link a i{
+    color: #fff;
+    font-size: 20px;
+}
+/* footer end  */
