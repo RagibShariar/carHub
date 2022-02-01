@@ -6,6 +6,7 @@
 body{
     font-family: 'Lato', sans-serif;
     /* color: #FFF !important; */
+   
 }
 .theme-color{
     color: #ffc61a;
@@ -35,7 +36,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 739px;    
+    max-height: 739px;  
+    max-width: 100%;  
 }
 .my-nav{
     padding-top: 40px;
